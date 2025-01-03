@@ -29,7 +29,7 @@ namespace OnionArcExample.WebAPI.Controllers
         [HttpGet("sendemail")]
         public IActionResult SendEmail()
         {
-            bool result = _emailService.Send("gncy@gencayyildiz.com", "laylaylom galiba sana göre sevmeler...");
+            bool result = _emailService.Send("emrecanterkan06@gmail.com","Çıldırırsın..");
             return Ok(result);
         }
     }
